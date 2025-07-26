@@ -1,0 +1,8 @@
+draft_model: Qwen/Qwen3-1.7B
+teacher_model: Qwen/Qwen3-4B
+max_tokens: 128
+gamma: 2
+sample: false
+kv_cache: true
+collect_stats: true
+speculative: true

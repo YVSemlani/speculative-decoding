@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "speculative-decoding"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "accelerate>=1.9.0",
+    "torch>=2.7.1",
+    "transformers>=4.53.3",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
+
