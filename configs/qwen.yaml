@@ -1,8 +1,8 @@
-draft_model: Qwen/Qwen3-1.7B
-teacher_model: Qwen/Qwen3-4B
+draft_model: google/gemma-3-1b-pt
+teacher_model: google/gemma-3-4b-pt
 max_tokens: 128
-gamma: 2
-sample: false
+gamma: 8
+sample: true
 kv_cache: true
 collect_stats: true
 speculative: true
