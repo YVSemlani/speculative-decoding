@@ -1,5 +1,5 @@
-draft_model: google/gemma-3-1b-pt
-teacher_model: google/gemma-3-4b-pt
+draft_model: Qwen/Qwen2.5-0.5B
+teacher_model: Qwen/Qwen2.5-7B
 max_tokens: 128
 gamma: 8
 sample: true
