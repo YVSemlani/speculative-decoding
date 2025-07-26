@@ -10,6 +10,9 @@ from mlx_lm import load
 
 from src.generate import speculative_generate
 
+import os
+os.environ["HF_HUB_ENABLE_HF_TRANSFER"] = "1"  # enable hf transfer
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
